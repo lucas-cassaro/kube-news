@@ -34,4 +34,4 @@ jobs:
           push: true
           tags: |
             lucascassaro/kube-news:latest
-            lucascassaro/kube-news:${{github.run_number}
+            lucascassaro/kube-news:${{github.run_number}}
