@@ -16,6 +16,7 @@ jobs:
   # This workflow contains a single job called "build"
   CI:
     runs-on: ubuntu-latest
+    needs: [CI]
 
     steps:
       - uses: actions/checkout@v3
