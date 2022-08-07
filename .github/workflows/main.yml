@@ -50,7 +50,7 @@ jobs:
       - name: Deploy to Kubernetes cluster
         uses: Azure/k8s-deploy@v4.3
         with:
-          images: lucascassaro/kuben-news:v${{github.run_number}}
+          images: lucascassaro/kube-news:v${{github.run_number}}
           manifests:
             k8s/deployment.yaml
 
